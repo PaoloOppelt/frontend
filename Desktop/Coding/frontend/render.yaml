@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: my-frontend-app
+    name: frontend
     runtime: node
     env: static
     buildCommand: yarn install && yarn build
